@@ -1,0 +1,49 @@
+#container{
+    display: grid;
+    height:600px;
+    grid-template-columns: 6fr;
+    grid-template-rows: 200px;
+    grid-template-areas: "header header header header header "
+'. around around around .'
+"footer footer footer footer footer";
+
+}
+#around{
+
+    border: 1px black solid;
+    height: 200px;
+    width: 80%;
+}
+header{
+    grid-area: header;
+    text-align: center;
+    /*border:blue 2px solid;*/
+}
+table{
+
+    border-collapse: collapse;
+    border: 2px black solid;
+}
+footer{
+    grid-area: footer;
+    text-align: center;
+    /*border:red 2px solid;*/
+    clear:both;
+}
+#divide{
+    border: black solid 2px;
+}
+td{
+    border: black solid 2px;
+}
+
+#two{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+button{
+    margin: 120px;
+}
