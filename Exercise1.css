@@ -46,4 +46,7 @@ h1{
 }
 button{
     margin: 120px;
+    display: block;
+    max-width: 300px;
+    margin: auto;
 }
