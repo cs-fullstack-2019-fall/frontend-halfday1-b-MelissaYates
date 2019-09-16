@@ -1,3 +1,10 @@
+### GRADED 16/24: See comments below and ask for clarification as needed.
+Overall a good effort, but see notes below:
+
+* You used HTML table for much of your layout and *not* CSS grid :-(
+* Your CSS grid has some other issues:
+  - Check your use of '#around' in 'grid-template-areas' portion of CSS. Based grid-template-areas, you should have an 'around' area, but in your 'around' selector, you aren't specifiying that it is assigned to the 'around' 'grid-area' so it is ignored.
+
 # frontend-halfDay1_b
 
 ### Button Clicking Game
